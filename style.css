@@ -1,5 +1,132 @@
+
+/*
+Paleta de colores
+--green-color: #99B898;
+--skin-color: #FECEA8;
+--coral-color: #FF847C;
+--red-color: #E84A5F;
+
+--dark-color: #2A363B;
+*/
+
+/*
+Fuentes: 
+font-family: 'Raleway', sans-serif;
+font-family: 'Libre Baskerville', serif;
+*/
+
+/* Elements */
 body {
-    height: 100vh;
-    color: white;
-    background: linear-gradient(to bottom, red, black);
+    margin:  0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#CCC , #c3c3c3);
+    color: #101416;
+    font-family: 'Libre Baskerville', serif;
+
+    a {
+        color: black !important;
+    }
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #CCC;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    min-height: 120px;
+    background-color: #2A363B;;
+    color: #c3c3c3;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FF847C;
+    transition: color 0.3s ease-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color:  #E84A5F;
+}
+
+/* Layout */
+.container {
+    margin:  0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+.container__main {
+    padding: 40px 60px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #b5b5b5;
+    margin-bottom: 160px;
+}
+
+.container__footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top:  20px;
+    padding-bottom: 50px;
+}
+
+.title__main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    font-size: 120px;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+    border:  1px solid transparent;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: #2A363B;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: all 0.3s ease-in;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav__link:last-child {
+    margin-right: 15px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    border:  1px solid white;
+    color:  #939393;
+}
+
+.footer__column {
+    padding-right: 40px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer__column  a {
+        color: #FF847C;
+}
+
+/* Utils */
+.bg__color--skin {
+    background-color: #f9f9f9;
 }
