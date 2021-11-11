@@ -16,6 +16,10 @@ font-family: 'Libre Baskerville', serif;
 */
 
 /* Elements */
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: 20px;
+}
 body {
     margin:  0;
     display: flex;
@@ -25,10 +29,6 @@ body {
     background: linear-gradient(to bottom,#CCC , #c3c3c3);
     color: #101416;
     font-family: 'Libre Baskerville', serif;
-
-    a {
-        color: black !important;
-    }
 }
 
 nav {
@@ -67,6 +67,20 @@ a:focus {
     margin:  0 auto;
     width: 100%;
     max-width: 900px;
+}
+
+.container h3 {
+    margin-top: 100px;
+}
+
+.container p,
+.container li {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.container img {
+    width: 100%;
 }
 
 .container__main {
@@ -113,7 +127,8 @@ a:focus {
 .nav__link:hover,
 .nav__link:focus {
     border:  1px solid white;
-    color:  #939393;
+    color:  #E84A5F;
+    text-decoration: none;
 }
 
 .footer__column {
@@ -129,4 +144,93 @@ a:focus {
 /* Utils */
 .bg__color--skin {
     background-color: #f9f9f9;
+}
+
+.bg__color--yellow {
+    background-color: #FECEA8;
+}
+
+.bg__color--yellow a {
+    color: crimson;
+}
+
+.img__full {
+    width: 100%;
+    object-fit: cover;
+    margin:  20px 0;
+}
+
+.travel__list {
+    list-style-type: none;
+    margin-top:  3rem;
+    margin-bottom: 7rem;
+}
+
+.travel__list li {
+    border-bottom: 1px dotted #FF847C;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.travel__content {
+    display: flex;
+    width: 90%;
+}
+
+.travel__cta {
+    display: flex;
+    margin-top:  20px;
+    padding:  15px 25px;
+    background-color: red;
+    border:  1px solid red;
+    border-radius: 30px;
+    color: white;
+    width: fit-content;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in;
+}
+
+.travel__cta:hover,
+.travel__cta:focus {
+    background-color: white;
+    color:  red;
+    text-decoration: none;
+}
+
+.travel__img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius:  100px;
+    margin-right: 60px;
+}
+
+.info__layout {
+    display: flex;
+}
+
+.info__list {
+    list-style-type: none;
+}
+
+.two__column {
+    display: flex;
+}
+
+.two__column img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.two__column p {
+    padding: 0 15px;
+    margin:  0;
+}
+
+/*NASA styles*/
+.textSmall {
+    font-size: 75%;
+    line-height: normal;
 }
