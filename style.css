@@ -359,7 +359,35 @@ a:focus {
     }
 }
 
-/*NASA styles*/
+.topArrow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius:  30px;
+    cursor:  pointer;
+    transition: all 0.3s ease-in;
+}
+
+@media (min-width: 768px) {
+    .topArrow {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+.topArrow:hover,
+.topArrow:focus {
+    background-color: white;
+}
+
+
+.topArrow img {
+    width: 100%;
+}
+
 .textSmall {
     font-size: 75%;
     line-height: normal;
