@@ -1,8 +1,6 @@
 const name = 'Martin';
 console.log(`Hello ${name}`);
 
-var $;
-$ = require('jquery');
 
 $(function() {
 
