@@ -21,6 +21,7 @@ html {
   scroll-behavior: smooth;
   scroll-margin-top: 20px;
 }
+
 body {
     margin:  0;
     display: flex;
@@ -65,19 +66,20 @@ a {
     transition: color 0.3s ease-out;
 }
 
-a:hover {
+a:hover, a:focus {
     text-decoration: underline;
     color:  #E84A5F;
 }
 
-
 /* Layout */
+
 .container {
     margin:  0 auto;
     width: 80%;
 }
 
 /*tablet*/
+
 @media (min-width: 768px) {
    .container {
         width: 100%;
@@ -101,6 +103,7 @@ a:hover {
         margin-top: 100px;
     }
 }
+
 .container p,
 .container li {
     line-height: 20px;
@@ -119,6 +122,7 @@ a:hover {
 }
 
 /*tablet*/
+
 @media (min-width: 768px) {
    .container__main {
         padding: 40px;
@@ -141,6 +145,7 @@ a:hover {
 }
 
 /*laptop*/
+
 @media (min-width: 900px) {
    .container__footer {
         grid-template-columns: 1fr 1fr 1fr;
@@ -156,6 +161,7 @@ a:hover {
 }
 
 /*tablet*/
+
 @media (min-width: 768px) {
     .title__main {
         font-size: 70px;
@@ -163,6 +169,7 @@ a:hover {
 }
 
 /*Laptop*/
+
 @media (min-width: 900px) {
     .title__main {
         font-size: 120px;
@@ -183,8 +190,6 @@ a:hover {
     font-size: 15px;
     font-weight: 600;
 }
-
-
 
 @media (min-width: 768px) {
     .nav_link{
@@ -219,6 +224,7 @@ a:hover {
 }
 
 /* Utils */
+
 .bg__color--skin {
     background-color: #f9f9f9;
 }
@@ -233,7 +239,8 @@ a:hover {
 
 .img__full {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin:  20px 0;
 }
 
@@ -256,7 +263,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
-    .travel__content {
+.travel__content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -278,6 +285,8 @@ a:hover {
     border:  1px solid red;
     border-radius: 30px;
     color: white;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -294,14 +303,16 @@ a:hover {
 
 .travel__img {
     height: 170px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 @media (min-width: 768px) {
     .travel__img {
         width: 170px !important;
         height: 170px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         border-radius:  100px;
         margin-right: 60px;
     }
@@ -331,13 +342,15 @@ a:hover {
 
 .two__column img{
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 @media (min-width: 768px) {
     .two__column img{
         width: 50%;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 }
 
@@ -370,11 +383,9 @@ a:hover {
     }
 }
 
-
-.topArrow:hover {
+.topArrow:hover, .topArrow:focus {
     background-color: white;
 }
-
 
 .topArrow img {
     width: 100%;
@@ -384,3 +395,4 @@ a:hover {
     font-size: 75%;
     line-height: normal;
 }
+/*# sourceMappingURL=index.de101254.css.map */

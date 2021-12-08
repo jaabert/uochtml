@@ -1,5 +1,7 @@
 {
   "plugins": {
     "autoprefixer": true,
+    "postcss-focus": true,
+    "postcss-nested": true
   }
 }
