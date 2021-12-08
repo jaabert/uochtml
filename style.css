@@ -21,6 +21,7 @@ html {
   scroll-behavior: smooth;
   scroll-margin-top: 20px;
 }
+
 body {
     margin:  0;
     display: flex;
@@ -30,6 +31,10 @@ body {
     background: linear-gradient(to bottom,#CCC , #c3c3c3);
     color: #101416;
     font-family: 'Libre Baskerville', serif;
+}
+
+iframe {
+    width: 100%;
 }
 
 nav {
