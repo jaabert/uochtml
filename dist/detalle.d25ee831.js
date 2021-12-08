@@ -1,7 +1,5 @@
 const name = 'Martin';
-console.log(`Hello `+name);
-
-/*
+console.log(`Hello ` + name); /*
 $(function() {
 
     $(window).scroll(function() {
@@ -23,4 +21,6 @@ $(function() {
     }
 });
 
-*/
+*/ 
+
+//# sourceMappingURL=detalle.d25ee831.js.map

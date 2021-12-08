@@ -460,20 +460,29 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"7BQdY":[function(require,module,exports) {
 const name = 'Martin';
-console.log(`Hello ${name}`);
+console.log(`Hello ` + name); /*
 $(function() {
+
     $(window).scroll(function() {
         var scrollPos = $(window).scrollTop();
-        if (scrollPos >= 500) $('#btnTop').fadeIn();
-        else $('#btnTop').fadeOut();
+
+        if (scrollPos >= 500) {
+            $('#btnTop').fadeIn();
+        } else {
+            $('#btnTop').fadeOut();
+        }
     });
-    $('#btnTop').on('click', function() {
+
+    $('#btnTop').on('click', function(){
         subirScroll();
     });
+
     function subirScroll() {
         $(window).scrollTop(0);
     }
 });
+
+*/ 
 
 },{}]},["5UGAA","7BQdY"], "7BQdY", "parcelRequirebb06")
 
