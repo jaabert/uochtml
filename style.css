@@ -440,3 +440,7 @@ a:hover {
     font-size: 75%;
     line-height: normal;
 }
+
+.clip__img {
+    clip-path: polygon(5% 5%, 97.88% 20.64%, 99.63% 89.45%, 79.63% 90.2%, 75% 100%, 71.38% 91.51%, 2% 94.14%);
+}
