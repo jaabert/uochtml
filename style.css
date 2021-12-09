@@ -396,13 +396,6 @@ a:hover {
     object-fit: cover;
 }
 
-@media (min-width: 768px) {
-    .two__column img{
-        width: 50%;
-        object-fit: cover;
-    }
-}
-
 .two__column p {
     padding: 0 15px;
     margin:  20px 0;
@@ -411,6 +404,7 @@ a:hover {
 @media (min-width: 768px) {
     .two__column p {
         margin: 0;
+        flex: 100%;
     }
 }
 

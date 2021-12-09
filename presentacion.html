@@ -35,13 +35,57 @@
                 <h2>Quienes somos</h2>
                 <div class="two__column">
                     <p>Somos la primera agencia de viajes de Marte y además la única en operar desde el propio territorio marciano. <a href="#">No tenemos delegaciones en Marte</a>, somos marcianos. Nuestros guías sobre el terreno somos nosotros mismos, todo el personal exceptuando las delegaciones terrestres somos marcianos y estaremos encantados de mostrarte nuestro querido <a href="https://www.youtube.com/watch?v=nl5dlbCh8lY" target="_blank">punto rojo en el universo</a>.</p>
-                <img alt="marte" src="img/luca-unsplash.jpg">
+                    <picture>
+                        <!-- webp -->
+                        <source  media="(min-width: 900px)"
+                                 srcset="img/luca-unsplash.webp?width=800"
+                                 type="image/webp">
+                        <source  media="(min-width: 768px)"
+                                 srcset="img/luca-unsplash.webp?width=670"
+                                 type="image/webp">
+                        <!-- jpg/png -->
+                        <source  media="(min-width: 900px)"
+                                 srcset="img/luca-unsplash.jpg?width=800"
+                                 type="image/jpeg">
+                        <source  media="(min-width: 768px)"
+                                 srcset="img/luca-unsplash.jpg?width=670"
+                                 type="image/jpeg">
+                        <!-- fallback -->
+                        <img    srcset="img/luca-unsplash.jpg?width=800 900w, 
+                                        img/luca-unsplash.jpg?width=670 768w" 
+                                sizes="(min-width: 900px) 900px,
+                                       (min-width: 768px) 768px"
+                                src="img/luca-unsplash.jpg?width=600" 
+                                alt="Marte">
+                    </picture>                     
                 </div>
 
                 <h3>Nuestro catálogo de servicios</h3>
 
                 <div class="two__column">
-                    <img alt="vacaciones en marte" src="img/max-unsplash.jpg">
+                    <picture>
+                        <!-- webp -->
+                        <source  media="(min-width: 900px)"
+                                 srcset="img/max-unsplash.webp?width=800"
+                                 type="image/webp">
+                        <source  media="(min-width: 768px)"
+                                 srcset="img/max-unsplash.webp?width=670"
+                                 type="image/webp">
+                        <!-- jpg/png -->
+                        <source  media="(min-width: 900px)"
+                                 srcset="img/max-unsplash.jpg?width=800"
+                                 type="image/jpeg">
+                        <source  media="(min-width: 768px)"
+                                 srcset="img/max-unsplash.jpg?width=670"
+                                 type="image/jpeg">
+                        <!-- fallback -->
+                        <img    srcset="img/max-unsplash.jpg?width=800 900w, 
+                                        img/max-unsplash.jpg?width=670 768w" 
+                                sizes="(min-width: 900px) 900px,
+                                       (min-width: 768px) 768px"
+                                src="img/max-unsplash.jpg?width=600" 
+                                alt="Vacaciones en marte">
+                    </picture>                    
                     <div>
                         <p>Nuestro completo catálogo de servicios incluye viajes y estancias en Marte adaptadas a todos los públicos.</p>
                         <p>Continuamente renovamos y ofrecemos nuevos servicios e itinerarios, entre los que destacamos las siguientes categorías:</p>
@@ -52,10 +96,7 @@
                             <li>Viajes a lugares míticos o especiales</li>
                         </ul>
                     </div>
-
-   
                 </div>
-
                  <h3>Nuestro planeta</h3>
                 <p>Visítanos <a target="_blank" href="http://mars3dmap.com/#?l=27.3541,63.0301,3">  en nuestras oficinas en Marte</a></p>
                 <iframe height="515" src="https://www.youtube.com/embed/ZEyAs3NWH4A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

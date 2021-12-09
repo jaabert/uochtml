@@ -36,8 +36,30 @@
                     <h2>Bienvenidos al planeta rojo</h2>
                     <p>En la <a href="presentacion.html">agencia de viajes Marte</a> 
                     podrás encontrar <a href="categorias.html">el viaje a Marte que siempre has soñado</a>, por supuesto al mejor precio y con las mejores garantías de supervivencia en el planeta rojo.
-                    <img class="img__full" alt="vista de paisaje marciano, CGI" src="img/mars-index.jpg">
-
+                    <picture>
+                        <!-- webp -->
+                        <source  media="(min-width: 900px)"
+                                 srcset="img/mars-index.webp?width=800"
+                                 type="image/webp">
+                        <source  media="(min-width: 768px)"
+                                 srcset="img/mars-index.webp?width=670"
+                                 type="image/webp">
+                        <!-- jpg/png -->
+                        <source  media="(min-width: 900px)"
+                                 srcset="img/mars-index.jpg?width=800"
+                                 type="image/jpeg">
+                        <source  media="(min-width: 768px)"
+                                 srcset="img/mars-index.jpg?width=670"
+                                 type="image/jpeg">
+                        <!-- fallback -->
+                        <img    srcset="img/mars-index.jpg?width=800 900w, 
+                                        img/mars-index.jpg?width=670 768w" 
+                                sizes="(min-width: 900px) 900px,
+                                       (min-width: 768px) 768px"
+                                src="img/mars-index.jpg?width=600" 
+                                class="img__full"
+                                alt="Vista de paisaje marciano, CGI">
+                    </picture>                        
                     <h3>Nuestros viajes</h3>
                     <p>Dentro de nuestra sección categorías, puedes encontrar los detalles de todos nuestros viajes, packs y ofertas para singles, parejas, familias o grupos.
                     </p>

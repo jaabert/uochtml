@@ -36,8 +36,17 @@
                     <h2>Bienvenidos al planeta rojo</h2>
                     <p>En la <a href="/presentacion.html">agencia de viajes Marte</a> 
                     podrás encontrar <a href="/categorias.html">el viaje a Marte que siempre has soñado</a>, por supuesto al mejor precio y con las mejores garantías de supervivencia en el planeta rojo.
-                    <img class="img__full" alt="vista de paisaje marciano, CGI" src="/mars-index.e5ccc450.jpg">
-
+                    <picture>
+                        <!-- webp -->
+                        <source media="(min-width: 900px)" srcset="/mars-index.99d8044c.webp" type="image/webp">
+                        <source media="(min-width: 768px)" srcset="/mars-index.46360982.webp" type="image/webp">
+                        <!-- jpg/png -->
+                        <source media="(min-width: 900px)" srcset="/mars-index.d87aa119.jpeg" type="image/jpeg">
+                        <source media="(min-width: 768px)" srcset="/mars-index.82055223.jpeg" type="image/jpeg">
+                        <!-- fallback -->
+                        <img srcset="/mars-index.d87aa119.jpeg 900w,/mars-index.82055223.jpeg 768w" sizes="(min-width: 900px) 900px,
+                                       (min-width: 768px) 768px" src="/mars-index.00ed8117.jpeg" class="img__full" alt="Vista de paisaje marciano, CGI">
+                    </picture>                        
                     </p><h3>Nuestros viajes</h3>
                     <p>Dentro de nuestra sección categorías, puedes encontrar los detalles de todos nuestros viajes, packs y ofertas para singles, parejas, familias o grupos.
                     </p>

@@ -418,14 +418,6 @@ footer .footer__icon {
        object-fit: cover;
 }
 
-@media (min-width: 768px) {
-    .two__column img{
-        width: 50%;
-        -o-object-fit: cover;
-           object-fit: cover;
-    }
-}
-
 .two__column p {
     padding: 0 15px;
     margin:  20px 0;
@@ -434,6 +426,7 @@ footer .footer__icon {
 @media (min-width: 768px) {
     .two__column p {
         margin: 0;
+        flex: 100%;
     }
 }
 
