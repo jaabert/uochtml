@@ -127,8 +127,27 @@ a:hover, a:focus {
 }
 
 .container img {
-    width: 100%;
-}
+        width: 100%;
+        height: auto;
+    }
+
+.container img.travel__img {
+        height: 170px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+@media (min-width: 768px) {
+
+.container img.travel__img {
+            width: 170px !important;
+            height: 170px;
+            -o-object-fit: cover;
+               object-fit: cover;
+            border-radius:  100px;
+            margin-right: 60px
+    }
+        }
 
 .container .logo__container img {
     width: 100px;
@@ -375,23 +394,6 @@ footer .footer__icon {
     background-color: white;
     color:  red;
     text-decoration: none;
-}
-
-.travel__img {
-    height: 170px;
-    -o-object-fit: cover;
-       object-fit: cover;
-}
-
-@media (min-width: 768px) {
-    .travel__img {
-        width: 170px !important;
-        height: 170px;
-        -o-object-fit: cover;
-           object-fit: cover;
-        border-radius:  100px;
-        margin-right: 60px;
-    }
 }
 
 .info__list {

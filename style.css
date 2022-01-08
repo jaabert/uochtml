@@ -125,8 +125,24 @@ a:hover {
     font-size: 14px;
 }
 
-.container img {
-    width: 100%;
+.container {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    img.travel__img {
+        height: 170px;
+        object-fit: cover;
+
+        @media (min-width: 768px) {
+            width: 170px !important;
+            height: 170px;
+            object-fit: cover;
+            border-radius:  100px;
+            margin-right: 60px;
+        }
+    }
 }
 
 .container .logo__container img {
@@ -356,21 +372,6 @@ a:hover {
     background-color: white;
     color:  red;
     text-decoration: none;
-}
-
-.travel__img {
-    height: 170px;
-    object-fit: cover;
-}
-
-@media (min-width: 768px) {
-    .travel__img {
-        width: 170px !important;
-        height: 170px;
-        object-fit: cover;
-        border-radius:  100px;
-        margin-right: 60px;
-    }
 }
 
 .info__list {
