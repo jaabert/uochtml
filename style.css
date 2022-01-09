@@ -15,6 +15,7 @@ Paleta de colores
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
+  font-display: swap;
   src: url('fonts/raleway-v22-latin-200.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('fonts/raleway-v22-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -29,6 +30,7 @@ Paleta de colores
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -43,6 +45,7 @@ Paleta de colores
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url('fonts/raleway-v22-latin-300.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('fonts/raleway-v22-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -57,6 +60,7 @@ Paleta de colores
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url('fonts/raleway-v22-latin-600.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('fonts/raleway-v22-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
