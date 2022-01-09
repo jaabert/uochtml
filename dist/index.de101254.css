@@ -9,13 +9,110 @@ Paleta de colores
 --dark-color: #2A363B;
 */
 
-/*
-Fuentes: 
-font-family: 'Raleway', sans-serif;
-font-family: 'Libre Baskerville', serif;
-*/
+/*-- Fuentes: --*/
 
-/* Elements */
+/*font-family: 'Raleway', sans-serif;*/
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('raleway-v22-latin-200.72d47736.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('raleway-v22-latin-200.72d47736.eot#iefix') format('embedded-opentype'), 
+       url('raleway-v22-latin-200.6f3436b0.woff2') format('woff2'), 
+       url('raleway-v22-latin-200.d53f91b9.woff') format('woff'), 
+       url('raleway-v22-latin-200.f6e9305d.ttf') format('truetype'), 
+       url('raleway-v22-latin-200.ec898efa.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-regular - latin */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('raleway-v22-latin-regular.edffd7fe.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('raleway-v22-latin-regular.edffd7fe.eot#iefix') format('embedded-opentype'), 
+       url('raleway-v22-latin-regular.d814db19.woff2') format('woff2'), 
+       url('raleway-v22-latin-regular.bd3832f2.woff') format('woff'), 
+       url('raleway-v22-latin-regular.f89ceb80.ttf') format('truetype'), 
+       url('raleway-v22-latin-regular.a0dbaa42.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-300 - latin */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('raleway-v22-latin-300.efcd9ae6.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('raleway-v22-latin-300.efcd9ae6.eot#iefix') format('embedded-opentype'), 
+       url('raleway-v22-latin-300.ffeb7445.woff2') format('woff2'), 
+       url('raleway-v22-latin-300.26cfee8a.woff') format('woff'), 
+       url('raleway-v22-latin-300.6726ef1d.ttf') format('truetype'), 
+       url('raleway-v22-latin-300.6383aba8.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-600 - latin */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('raleway-v22-latin-600.dd576ed1.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('raleway-v22-latin-600.dd576ed1.eot#iefix') format('embedded-opentype'), 
+       url('raleway-v22-latin-600.321f8465.woff2') format('woff2'), 
+       url('raleway-v22-latin-600.1e073d9b.woff') format('woff'), 
+       url('raleway-v22-latin-600.810828e9.ttf') format('truetype'), 
+       url('raleway-v22-latin-600.d5b6511d.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/*font-family: 'Libre Baskerville', serif;*/
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('LibreBaskerville-Regular.33a57c6d.eot');
+    src: url('LibreBaskerville-Regular.33a57c6d.eot#iefix') format('embedded-opentype'),
+        url('LibreBaskerville-Regular.22658c2d.woff2') format('woff2'),
+        url('LibreBaskerville-Regular.9b623f31.woff') format('woff'),
+        url('LibreBaskerville-Regular.83a0e2df.ttf') format('truetype'),
+        url('LibreBaskerville-Regular.14220233.svg#LibreBaskerville-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('LibreBaskerville-Italic.60bc66ce.eot');
+    src: url('LibreBaskerville-Italic.60bc66ce.eot#iefix') format('embedded-opentype'),
+        url('LibreBaskerville-Italic.d8e070f2.woff2') format('woff2'),
+        url('LibreBaskerville-Italic.ead2e585.woff') format('woff'),
+        url('LibreBaskerville-Italic.0ce479d9.ttf') format('truetype'),
+        url('LibreBaskerville-Italic.5bc36dc8.svg#LibreBaskerville-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('LibreBaskerville-Bold.64098e8e.eot');
+    src: url('LibreBaskerville-Bold.64098e8e.eot#iefix') format('embedded-opentype'),
+        url('LibreBaskerville-Bold.bd7c8ff6.woff2') format('woff2'),
+        url('LibreBaskerville-Bold.557f087b.woff') format('woff'),
+        url('LibreBaskerville-Bold.db100d67.ttf') format('truetype'),
+        url('LibreBaskerville-Bold.284fa6e2.svg#LibreBaskerville-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Elementos */
 
 html {
   scroll-behavior: smooth;
